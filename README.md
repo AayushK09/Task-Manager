@@ -1,40 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Task Manager Application
 
-## Getting Started
+This is a simple Task Manager application built with React and Next.js. It allows users to add, delete, and toggle the completion status of tasks.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Add Tasks**: Create new tasks by typing in the input field and clicking the "Add Task" button.
+- **Delete Tasks**: Remove a task by clicking the delete button.
+- **Toggle Completion**: Mark tasks as completed or incomplete by clicking on them.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Installation
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Clone this repository:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+   ```bash
+   git clone <repository-url>
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Navigate to the project directory:
 
-## Learn More
+   ```bash
+   cd task-manager
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Install dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Start the development server:
 
-## Deploy on Vercel
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. Open your browser and go to:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+   ```
+   http://localhost:3000
+   ```
+
+## Usage
+
+1. Enter a task in the input field and click "Add Task" to create a new task.
+2. View all tasks in the task list.
+3. Toggle the completion status of a task by clicking on it.
+4. Delete a task by clicking the delete button.
+
+## Technologies Used
+
+- **React**: Component-based UI development.
+- **Next.js**: Framework for server-side rendering and routing.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+
+## License
+
+This project is licensed under the MIT License.
+
