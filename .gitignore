@@ -4,11 +4,7 @@
 /node_modules
 /.pnp
 .pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+
 
 # testing
 /coverage
@@ -28,10 +24,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-<<<<<<< HEAD
 .pnpm-debug.log*
-=======
->>>>>>> db5d9c3c2911ff19b4fed7e84a76622bc085f15b
 
 # env files (can opt-in for committing if needed)
 .env*
@@ -42,3 +35,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+package-lock.json
